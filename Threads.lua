@@ -15,21 +15,21 @@ local function formatNumber(num)
     end
 
     if num >= 200000 then
-        color = "|cffFFFF00" -- Yellow
+        color = "|cffFFFF00" -- Jaune
     elseif num >= 100000 then
         color = "|cffFF8000" -- Orange
     elseif num >= 50000 then
-        color = "|cffA335EE" -- Purple
+        color = "|cffA335EE" -- Violet
     elseif num >= 30000 then
-        color = "|cff0070FF" -- Blue
+        color = "|cff0070FF" -- Bleu
     elseif num >= 20000 then
-        color = "|cffADD8E6" -- Light Blue
+        color = "|cffADD8E6" -- Bleu clair
     elseif num >= 15000 then
-        color = "|cff00FF00" -- Green 
+        color = "|cff00FF00" -- Vert 
     elseif num > 10000 then
-        color = "|cff90EE90" -- Light Green
+        color = "|cff90EE90" -- Vert clair
     else
-        color = "|cff808080" -- Gray
+        color = "|cff808080" -- Gris
     end
 
     return formattedNum, color
@@ -46,7 +46,7 @@ local L = {
     },
     ["frFR"] = {
         ["Threads"] = "|cffFFFFFFFils:|r",
-        ["Timerunner's Advantage"] = "Avantage du Coureur de Temps",
+        ["Timerunner's Advantage"] = "Avantage du cours du temps",
     },
 }
 
